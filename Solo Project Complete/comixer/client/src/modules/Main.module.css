@@ -1,0 +1,80 @@
+body {
+    /* background: #233945; */
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.coverflow {
+    /* background-image: "https://nerdist.com/wp-content/uploads/2013/11/BMTF_Cv25_ds.jpg";
+    opacity: .5; */
+    background: rgba(F, F, F, 0.1);
+    margin-bottom: 3rem;
+}
+
+.img {
+    width: 40%;
+    margin-bottom: 3rem;
+    z-index: 1;
+}
+
+.categoryLabel {
+    width: 100%;
+    background-color: #67707B;
+    color: #FCFDFD;
+    text-align: left;
+    padding-left: 20px;
+    border-radius: 2.5px;
+}
+
+.categoryLabel > a {
+    color: #FCFDFD; 
+}
+
+.booksWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thumbnail {
+    width: 100%;
+    justify-content: left;
+    /* margin-right: 1.5rem; */
+}
+
+.thumbnailAnchor {
+    width: 13%;
+    height: auto;
+}
+
+/* .imgMain{
+    width: 100%;
+    height: auto;
+} */
+
+.detailsWrapper {
+    height: 50rem;
+    display: flexbox;
+    justify-content: left;
+}
+
+.detailsWrapper > img {
+    height: 100%;
+}
+
+.info {
+    width: 35%;
+    padding: 2rem;
+}
+
+.info > ul {
+    list-style: none;    
+}
+
+.info > ul > li {
+    text-align: left;
+    margin-bottom: .5rem;
+}
+
+.info > button {
+    float: right;
+    margin: 40px 20px;
+}
